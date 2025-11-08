@@ -1,5 +1,5 @@
 import React from "react";
-import foods from "../data/foods.json";
+
 
 const Menu = () => {
   return (
