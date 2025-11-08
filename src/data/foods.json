@@ -1,0 +1,6 @@
+[
+  { "id": 1, "name": "Margherita Pizza", "price": 299, "image": "https://i.imgur.com/ZF6s192.jpg" },
+  { "id": 2, "name": "Veg Burger", "price": 199, "image": "https://i.imgur.com/1bX5QH6.jpg" },
+  { "id": 3, "name": "Pasta Alfredo", "price": 249, "image": "https://i.imgur.com/RqFReWf.jpg" },
+  { "id": 4, "name": "Grilled Sandwich", "price": 179, "image": "https://i.imgur.com/vYyU9gE.jpg" }
+]
