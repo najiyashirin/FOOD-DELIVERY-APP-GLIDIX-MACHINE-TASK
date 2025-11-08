@@ -1,6 +1,14 @@
 import React, { useState } from "react";
 
+const Signup = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
+  const handleSignup = (e) => {
+    e.preventDefault();
+    localStorage.setItem("user", JSON.stringify({ email }));
+    alert("Account created successfully");
+  };
 
   return (
     <div className="page">
@@ -24,6 +32,6 @@ import React, { useState } from "react";
       </form>
     </div>
   );
-
+};
 
 export default Signup;
