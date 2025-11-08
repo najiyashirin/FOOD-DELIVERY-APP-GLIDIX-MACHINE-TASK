@@ -1,6 +1,30 @@
 [
-  { "id": 1, "name": "Margherita Pizza", "price": 299, "image": "https://i.imgur.com/ZF6s192.jpg" },
-  { "id": 2, "name": "Veg Burger", "price": 199, "image": "https://i.imgur.com/1bX5QH6.jpg" },
-  { "id": 3, "name": "Pasta Alfredo", "price": 249, "image": "https://i.imgur.com/RqFReWf.jpg" },
-  { "id": 4, "name": "Grilled Sandwich", "price": 179, "image": "https://i.imgur.com/vYyU9gE.jpg" }
+  {
+    "id": 1,
+    "name": "Margherita Pizza",
+    "image": "/assets/pizza.jpg",
+    "price": 299,
+    "desc": "Classic cheese pizza with tomato sauce and basil."
+  },
+  {
+    "id": 2,
+    "name": "Veggie Burger",
+    "image": "/assets/burger.jpg",
+    "price": 199,
+    "desc": "Loaded with fresh vegetables and cheese."
+  },
+  {
+    "id": 3,
+    "name": "Pasta Alfredo",
+    "image": "/assets/pasta.jpg",
+    "price": 249,
+    "desc": "Creamy white sauce pasta topped with herbs."
+  },
+  {
+    "id": 4,
+    "name": "Chicken Shawarma",
+    "image": "/assets/shawarma.jpg",
+    "price": 179,
+    "desc": "Middle Eastern wrap with chicken, lettuce, and mayo."
+  }
 ]
