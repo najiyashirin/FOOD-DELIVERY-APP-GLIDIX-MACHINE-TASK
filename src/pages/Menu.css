@@ -1,0 +1,16 @@
+.menu-page {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.menu-page h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.food-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

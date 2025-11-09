@@ -1,19 +1,18 @@
 import React from "react";
-import foods from "../data/foods.json";
+import foodsData from "../data/foods.json";
+import FoodCard from "../components/FoodCard/FoodCard";
+import { useCart } from "../context/CartContext";
+import "./Menu.css";
 
 const Menu = () => {
+  const { addToCart } = useCart();
+
   return (
-    <div className="page">
-      
+    <div className="menu-page">
       <h1>Our Menu</h1>
-      <div className="menu-grid">
-        {foods.map((item) => (
-          <div className="menu-card" key={item.id}>
-            <img src={item.image} alt={item.name} />
-            <h3>{item.name}</h3>
-            <p>₹{item.price}</p>
-            <button>Add to Cart</button>
-          </div>
+      <div className="food-list">
+        {foodsData.map((food) => (
+          <FoodCard key={food.id} food={food} addToCart={addToCart} />
         ))}
       </div>
     </div>

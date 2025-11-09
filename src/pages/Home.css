@@ -1,0 +1,38 @@
+.home {
+  background: url('/assets/bg.jpg') center/cover no-repeat;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.hero p {
+  margin-top: 10px;
+  color: #666;
+}
+
+.order-btn {
+  display: inline-block;
+  background: #ff6f00;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.order-btn:hover {
+  background: #e65c00;
+}
