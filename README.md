@@ -1,8 +1,8 @@
-# 🍔 Food Delivery App (Vite + React)
+# Food Delivery App (Vite + React)
 
 A simple, responsive front-end application built as a machine task to demonstrate proficiency with modern React and efficient deployment strategies.
 
-## 🌐 Live Demo
+## Live Demo
 
 The application is deployed and available online via GitHub Pages.
 
@@ -10,7 +10,7 @@ The application is deployed and available online via GitHub Pages.
 
 ---
 
-## 💻 Local Setup Instructions
+## Local Setup Instructions
 
 Follow these steps to run the project locally for review.
 
