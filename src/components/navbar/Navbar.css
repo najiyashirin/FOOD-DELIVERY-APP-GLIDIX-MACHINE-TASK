@@ -4,7 +4,10 @@
   align-items: center;
   padding: 12px 30px;
   background-color: #ffb300;
-  color: white;
+  color: rgb(105, 4, 4);
+  font-weight: 900;
+  
+  
 }
 
 .nav-links {
