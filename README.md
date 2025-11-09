@@ -1,16 +1,26 @@
-# React + Vite
+# Food Delivery App (Vite + React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, responsive front-end application built as a machine task to demonstrate proficiency with modern React and efficient deployment strategies.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The application is deployed and available online via GitHub Pages.
 
-## React Compiler
+**Live URL:** [https://najiyashirin.github.io/FOOD-DELIVERY-APP-GLIDIX-MACHINE-TASK/](https://najiyashirin.github.io/FOOD-DELIVERY-APP-GLIDIX-MACHINE-TASK/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Local Setup Instructions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Follow these steps to run the project locally for review.
+
+### Prerequisites
+
+* **Node.js** (v18+)
+* **npm** (or Yarn/pnpm)
+
+### Step 1: Clone the Repository
+
+```bash
+git clone [https://github.com/najiyashirin/FOOD-DELIVERY-APP-GLIDIX-MACHINE-TASK.git](https://github.com/najiyashirin/FOOD-DELIVERY-APP-GLIDIX-MACHINE-TASK.git)
+cd FOOD-DELIVERY-APP-GLIDIX-MACHINE-TASK
